@@ -1,0 +1,64 @@
+* {
+  font-family: Poppins;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./assets/moving.gif');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.TodoWrapper{
+  background: #184444;
+  width: 500px;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+h1 {
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.TodoForm p{
+  color: white;
+}
+
+.todo-btn {
+  background: #fdfdfd;
+  color: #000000;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #ffffff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #ffffff;
+}
+
+.todo-input::placeholder {
+  color: #ffffffdf;
+}
