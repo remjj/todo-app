@@ -1,0 +1,106 @@
+* {
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../assets/moving.gif');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App {
+    text-align: center;
+}
+
+.todo-wrap {
+    background: #172547;
+    width: 500px;
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+}
+
+.TodoForm {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.TodoForm p {
+    color: white;
+}
+
+.todo-btn {
+    background: #fdfdfd;
+    color: #000000;
+    border: none;
+    padding: 0.55rem;
+    cursor: pointer;
+}
+
+.todo-input {
+    outline: none;
+    background: none;
+    border: 1px solid #ffffff;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 300px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.Todo {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ffffff;
+}
+
+.todo-text {
+    flex: 1;
+    text-align: left;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icon-wrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.icon-wrapper img {
+    width: 16px;
+    height: 16px;
+}
+
+.icon-wrapper span {
+    font-size: 12px;
+    color: #ffffff;
+}
